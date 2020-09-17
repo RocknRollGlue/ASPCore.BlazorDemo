@@ -870,7 +870,7 @@
       ]
     },
     "System.Buffers/4.5.0": {
-      "sha512": "pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
+      "sha512": "xpHYjjtyTEpzMwtSQBWdVc3dPjLdQtvyUg6fBlBqcLl1r2Y7gDG/W/enAYOB98nG3oD3Q153Y2FBO8JDWd+0Xw==",
       "type": "package",
       "path": "system.buffers/4.5.0",
       "files": [
@@ -1009,7 +1009,7 @@
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
-      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "sha512": "MNcaYxUJvUcoXOa+jgKl/GDw/Mh+wMrxDjW4dre7qrp35LUGTjUBNtZsNjxsWX592ocdyqt1X5hMJB+5OStoYw==",
       "type": "package",
       "path": "system.numerics.vectors/4.5.0",
       "files": [
@@ -1167,23 +1167,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ankit\\.nuget\\packages\\": {},
+    "C:\\Users\\mathi\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\BlazorUpdates\\ASPCore.BlazorDemo\\BlazorDemo\\BlazorDemo\\BlazorDemo.csproj",
+      "projectUniqueName": "C:\\Users\\mathi\\Documents\\EAL\\Pba. i Softwareudvikling\\2. semester\\Test\\Uge 4\\BlazorDemo\\BlazorDemo\\BlazorDemo\\BlazorDemo.csproj",
       "projectName": "BlazorDemo",
-      "projectPath": "E:\\Projects\\BlazorUpdates\\ASPCore.BlazorDemo\\BlazorDemo\\BlazorDemo\\BlazorDemo.csproj",
-      "packagesPath": "C:\\Users\\ankit\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\BlazorUpdates\\ASPCore.BlazorDemo\\BlazorDemo\\BlazorDemo\\obj\\",
+      "projectPath": "C:\\Users\\mathi\\Documents\\EAL\\Pba. i Softwareudvikling\\2. semester\\Test\\Uge 4\\BlazorDemo\\BlazorDemo\\BlazorDemo\\BlazorDemo.csproj",
+      "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mathi\\Documents\\EAL\\Pba. i Softwareudvikling\\2. semester\\Test\\Uge 4\\BlazorDemo\\BlazorDemo\\BlazorDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ankit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1236,18 +1236,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "NETStandard.Library.Ref",
-            "version": "[2.1.0, 2.1.0]"
-          }
-        ],
         "frameworkReferences": {
           "NETStandard.Library": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
