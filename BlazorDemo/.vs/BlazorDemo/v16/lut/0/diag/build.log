@@ -1,33 +1,33 @@
-[18:01:31.272 Verbose] - BuildManager - Some of the paths are absolute. This may prevent Live Unit Testing from building to the correct location.
-[18:01:31.275 Verbose] - BuildManager - Property BaseOutputPath evaluated to 'bin\' via:
+[13:46:45.111 Verbose] - BuildManager - Some of the paths are absolute. This may prevent Live Unit Testing from building to the correct location.
+[13:46:45.111 Verbose] - BuildManager - Property BaseOutputPath evaluated to 'bin\' via:
 BaseOutputPath: 'bin\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:31
-[18:01:31.275 Verbose] - BuildManager - Property BaseIntermediateOutputPath evaluated to 'C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\BlazorDemo\obj\' via:
+[13:46:45.111 Verbose] - BuildManager - Property BaseIntermediateOutputPath evaluated to 'C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\BlazorDemo\obj\' via:
 BaseIntermediateOutputPath: '$(MSBuildProjectDirectory)\$(BaseIntermediateOutputPath)' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk.Publish\targets\Microsoft.NET.Sdk.Publish.targets:74
   MSBuildProjectDirectory: 'C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\BlazorDemo'
   BaseIntermediateOutputPath: 'obj\' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Microsoft.Common.props:46
-[18:01:31.276 Verbose] - BuildManager - Property IntermediateOutputPath evaluated to 'obj\Debug\netstandard2.1\' via:
+[13:46:45.112 Verbose] - BuildManager - Property IntermediateOutputPath evaluated to 'obj\Debug\netstandard2.1\' via:
 IntermediateOutputPath: '$(IntermediateOutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:185
   IntermediateOutputPath: '$(BaseIntermediateOutputPath)$(Configuration)\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:39
     BaseIntermediateOutputPath: 'obj\' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Microsoft.Common.props:46
     Configuration: 'Debug'
-[18:01:31.276 Verbose] - BuildManager - Property OutputPath evaluated to 'bin\Debug\netstandard2.1\' via:
+[13:46:45.112 Verbose] - BuildManager - Property OutputPath evaluated to 'bin\Debug\netstandard2.1\' via:
 OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:186
   OutputPath: '$(BaseOutputPath)$(Configuration)\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:33
     BaseOutputPath: 'bin\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:31
     Configuration: 'Debug'
-[18:01:31.276 Verbose] - BuildManager - Property OutDir evaluated to 'bin\Debug\netstandard2.1\' via:
+[13:46:45.112 Verbose] - BuildManager - Property OutDir evaluated to 'bin\Debug\netstandard2.1\' via:
 OutDir: '$(OutputPath)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:193
   OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:186
     OutputPath: '$(BaseOutputPath)$(Configuration)\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:33
       BaseOutputPath: 'bin\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:31
       Configuration: 'Debug'
-[18:01:32.507 Verbose] - BuildManager - C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\BlazorDemo\Program.cs(15,40): error CS0246: The type or namespace name 'App' could not be found (are you missing a using directive or an assembly reference?)
-[18:01:32.510 Verbose] - BuildManager - C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Roslyn\Microsoft.CSharp.Core.targets(70,5): error MSB4181: The "Csc" task returned false but did not log an error.
-[18:01:32.562 Verbose] - BuildManager - Some of the file paths defined in the csproj under the Live Unit Testing build path are missing. Verify whether these files should be present under the Live Unit Testing build path and if necessary update the csproj definition to look these files up in a different place.
-[18:01:32.562 Verbose] - BuildManager - Item _OutputPathItem 'C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\BlazorDemo\bin\Debug\netstandard2.1\' evaluated via:
+[13:46:46.236 Verbose] - BuildManager - C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\BlazorDemo\Program.cs(15,40): error CS0246: The type or namespace name 'App' could not be found (are you missing a using directive or an assembly reference?)
+[13:46:46.236 Verbose] - BuildManager - C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Roslyn\Microsoft.CSharp.Core.targets(70,5): error MSB4181: The "Csc" task returned false but did not log an error.
+[13:46:46.241 Verbose] - BuildManager - Some of the file paths defined in the csproj under the Live Unit Testing build path are missing. Verify whether these files should be present under the Live Unit Testing build path and if necessary update the csproj definition to look these files up in a different place.
+[13:46:46.242 Verbose] - BuildManager - Item _OutputPathItem 'C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\BlazorDemo\bin\Debug\netstandard2.1\' evaluated via:
 _OutputPathItem: '$(OutDir)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:272
   OutDir: 'C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\BlazorDemo\bin\Debug\netstandard2.1\' @ C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\BlazorDemo\BlazorDemo.csproj:0
-[18:01:32.563 Verbose] - BuildManager - Item AppConfigFileDestination 'C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\BlazorDemo\bin\Debug\netstandard2.1\BlazorDemo.dll.config' evaluated via:
+[13:46:46.242 Verbose] - BuildManager - Item AppConfigFileDestination 'C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\BlazorDemo\bin\Debug\netstandard2.1\BlazorDemo.dll.config' evaluated via:
 AppConfigFileDestination: '$(OutDir)$(TargetFileName).config' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:303
   OutDir: 'C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\BlazorDemo\bin\Debug\netstandard2.1\' @ C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\BlazorDemo\BlazorDemo.csproj:0
   TargetFileName: '$(TargetName)$(TargetExt)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:212
@@ -35,10 +35,10 @@ AppConfigFileDestination: '$(OutDir)$(TargetFileName).config' @ C:\Program Files
       AssemblyName: '$(MSBuildProjectName)' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.props:32
         MSBuildProjectName: 'BlazorDemo'
     TargetExt: '.dll' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.BeforeCommon.targets:82
-[18:01:32.563 Verbose] - BuildManager - Item _DebugSymbolsOutputPath 'C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\BlazorDemo\bin\Debug\netstandard2.1\BlazorDemo.pdb' evaluated via:
+[13:46:46.242 Verbose] - BuildManager - Item _DebugSymbolsOutputPath 'C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\BlazorDemo\bin\Debug\netstandard2.1\BlazorDemo.pdb' evaluated via:
 _DebugSymbolsOutputPath: '@(_DebugSymbolsIntermediatePath->'$(OutDir)%(Filename)%(Extension)')' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:372
   OutDir: 'C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\BlazorDemo\bin\Debug\netstandard2.1\' @ C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\BlazorDemo\BlazorDemo.csproj:0
-[18:01:32.564 Verbose] - BuildManager - Item _ApplicationManifestFinal 'C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\BlazorDemo\bin\Debug\netstandard2.1\BlazorDemo.dll.manifest' evaluated via:
+[13:46:46.242 Verbose] - BuildManager - Item _ApplicationManifestFinal 'C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\BlazorDemo\bin\Debug\netstandard2.1\BlazorDemo.dll.manifest' evaluated via:
 _ApplicationManifestFinal: '$(OutDir)$(_DeploymentTargetApplicationManifestFileName)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:410
   OutDir: 'C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\.vs\BlazorDemo\v16\lut\0\b\BlazorDemo\bin\Debug\netstandard2.1\' @ C:\Users\mathi\Documents\EAL\Pba. i Softwareudvikling\2. semester\Test\Uge 4\BlazorDemo\BlazorDemo\BlazorDemo\BlazorDemo.csproj:0
   _DeploymentTargetApplicationManifestFileName: '$(TargetFileName).manifest' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:232

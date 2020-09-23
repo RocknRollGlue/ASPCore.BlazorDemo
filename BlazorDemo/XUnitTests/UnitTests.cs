@@ -1,11 +1,10 @@
 using BlazorDemo.Pages;
-using Bunit;
 using System;
 using Xunit;
 
 namespace XUnitTests
 {
-    public class UnitTests : TestContext
+    public class UnitTests
     {
         [Theory(DisplayName = "Add numbers")]
         [InlineData("5", "7", "12")]
@@ -97,6 +96,20 @@ namespace XUnitTests
 
             //Act
             string result = calculatorClass.Power(numberOne, numberTwo);
+
+            //Assert
+            Assert.Equal(expected, result);
+        }
+
+        [Theory]
+        [ClassData(typeof(CalculatorTestData))]
+        public void AddNumbersClassData(string value1, string value2, string expected)
+        {
+            //Arrange
+            CalculatorSubstitute calculatorClass = new CalculatorSubstitute();
+
+            //Act
+            string result = calculatorClass.AddNumbers(value1, value2);
 
             //Assert
             Assert.Equal(expected, result);

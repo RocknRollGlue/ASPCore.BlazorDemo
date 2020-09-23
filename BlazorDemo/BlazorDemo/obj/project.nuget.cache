@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iZapKQPj4PgJit86j6AMF7Np+lrdSIa7nbzWWtSVttdoTj1ebk2p84hKcpxiIWXIwhHzCPsYeBZKNmp6mDPsyA==",
+  "dgSpecHash": "t+/MevwcA4R67t40XTOLt8xhd7viXJ1JJ43y8P2B3l5ZCHHOUeZH2Isc3buV2nQAIhXbQfuPwtx97wIwhh8FWQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\mathi\\Documents\\EAL\\Pba. i Softwareudvikling\\2. semester\\Test\\Uge 4\\BlazorDemo\\BlazorDemo\\BlazorDemo\\BlazorDemo.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.aspnetcore.blazor\\3.2.0-preview1.20073.1\\microsoft.aspnetcore.blazor.3.2.0-preview1.20073.1.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.aspnetcore.blazor.build\\3.2.0-preview1.20073.1\\microsoft.aspnetcore.blazor.build.3.2.0-preview1.20073.1.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.aspnetcore.blazor.devserver\\3.2.0-preview1.20073.1\\microsoft.aspnetcore.blazor.devserver.3.2.0-preview1.20073.1.nupkg.sha512",
-    "C:\\Users\\mathi\\.nuget\\packages\\microsoft.aspnetcore.blazor.httpclient\\3.2.0-preview1.20073.1\\microsoft.aspnetcore.blazor.httpclient.3.2.0-preview1.20073.1.nupkg.sha512",
+    "C:\\Users\\mathi\\.nuget\\packages\\microsoft.aspnetcore.blazor.httpclient\\3.2.0-preview3.20168.3\\microsoft.aspnetcore.blazor.httpclient.3.2.0-preview3.20168.3.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.aspnetcore.blazor.mono\\3.2.0-preview1.20067.1\\microsoft.aspnetcore.blazor.mono.3.2.0-preview1.20067.1.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.0\\microsoft.aspnetcore.components.3.1.0.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.0\\microsoft.aspnetcore.components.analyzers.3.1.0.nupkg.sha512",
@@ -31,7 +31,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.0\\system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512",
-    "C:\\Users\\mathi\\.nuget\\packages\\system.text.json\\4.7.0\\system.text.json.4.7.0.nupkg.sha512",
+    "C:\\Users\\mathi\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512"
   ],
   "logs": []
